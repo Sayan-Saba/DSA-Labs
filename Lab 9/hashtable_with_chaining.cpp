@@ -64,10 +64,10 @@ struct HashTable{
 	//add your code below
 	if (empty) {
         cout<< "The slot is empty!";
-    }
-    else {
+        }
+        else {
         password[hashfunc(user_name)].print_list();
-    }
+        }
 	
 	
 	
